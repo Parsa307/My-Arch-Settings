@@ -4,5 +4,5 @@ Welcome to my personal Arch Linux configuration repo! This collection includes P
 
 ## ⚙️ Requirements
 
-- Arch Linux (obviously)
+- Arch Linux (or Arch Based Distributions)
 - Basic understanding of shell scripting
