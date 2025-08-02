@@ -1,10 +1,10 @@
 [Trigger]
-Operation = Install
-Operation = Upgrade
-Type = Package
-Target = element-desktop
+Operation=Install
+Operation=Upgrade
+Type=Package
+Target=element-desktop
 
 [Action]
-Description = Auto-patch Element desktop file to use kwallet6
-When = PostTransaction
-Exec = /usr/local/bin/patch-element-desktop.sh
+Description=Auto-patch Element desktop file to use kwallet6
+When=PostTransaction
+Exec=/usr/local/bin/patch-element-desktop.sh
