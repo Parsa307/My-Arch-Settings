@@ -1,0 +1,35 @@
+pkgname=ab-download-manager
+_pkgname=ABDownloadManager
+pkgver=1.6.10
+pkgrel=1
+pkgdesc="A Download Manager that speeds up your downloads"
+arch=("x86_64")
+url="https://abdownloadmanager.com/"
+license=("Apache-2.0")
+depends=("glibc" "java-runtime" "zlib" "alsa-lib" "libglvnd" "libxi" "freetype2" "libxtst" "libxrender" "fontconfig" "libx11" "libxext" "libappindicator-gtk3")
+options=(!debug)
+source=("https://github.com/amir1376/${pkgname}/releases/download/v${pkgver}/ABDownloadManager_${pkgver}_linux_x64.tar.gz")
+sha256sums=("0f4670470757afe63ec670b66568d24d21de50092680cde638245671939cec8b")
+
+package() {
+    install -d "${pkgdir}/opt/"
+    install -d "${pkgdir}/usr/share/"{applications,pixmaps}
+    install -d "${pkgdir}/usr/bin/"
+
+    mv "${srcdir}/${_pkgname}/lib/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${_pkgname}.png"
+    chmod +x "${srcdir}/${_pkgname}/bin/${_pkgname}"
+    ln -s "/opt/${_pkgname}/bin/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
+    mv "${srcdir}/${_pkgname}" "${pkgdir}/opt"
+    install -Dm644 /dev/stdin "${pkgdir}/usr/share/applications/com.abdownloadmanager.desktop" <<EOF
+[Desktop Entry]
+Name=AB Download Manager
+Comment=Manage and organize your download files better than before
+GenericName=Download Manager
+Exec=env SKIKO_RENDER_API=SOFTWARE ${_pkgname}
+Icon=${_pkgname}
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+StartupWMClass=com-abdownloadmanager-desktop-AppKt
+EOF
+}
