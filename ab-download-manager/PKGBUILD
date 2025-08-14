@@ -1,4 +1,5 @@
 pkgname=ab-download-manager
+classname=com-abdownloadmanager-desktop-AppKt
 _pkgname=ABDownloadManager
 pkgver=1.6.10
 pkgrel=1
@@ -13,10 +14,16 @@ sha256sums=("0f4670470757afe63ec670b66568d24d21de50092680cde638245671939cec8b")
 
 package() {
     install -d "${pkgdir}/opt/"
-    install -d "${pkgdir}/usr/share/"{applications,pixmaps}
+    install -d "${pkgdir}/usr/share/icons/hicolor/"{512x512,256x256,128x128,64x64,48x48,32x32,16x16}/apps
     install -d "${pkgdir}/usr/bin/"
 
-    mv "${srcdir}/${_pkgname}/lib/${_pkgname}.png" "${pkgdir}/usr/share/pixmaps/${_pkgname}.png"
+    mv "${srcdir}/${_pkgname}/lib/${_pkgname}.png" "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png"
+    magick "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png" -resize 256x256 "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${classname}.png"
+    magick "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png" -resize 128x128 "${pkgdir}/usr/share/icons/hicolor/128x128/apps/${classname}.png"
+    magick "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png" -resize 64x64 "${pkgdir}/usr/share/icons/hicolor/64x64/apps/${classname}.png"
+    magick "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png" -resize 48x48 "${pkgdir}/usr/share/icons/hicolor/48x48/apps/${classname}.png"
+    magick "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png" -resize 32x32 "${pkgdir}/usr/share/icons/hicolor/32x32/apps/${classname}.png"
+    magick "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png" -resize 16x16 "${pkgdir}/usr/share/icons/hicolor/16x16/apps/${classname}.png"
     chmod +x "${srcdir}/${_pkgname}/bin/${_pkgname}"
     ln -s "/opt/${_pkgname}/bin/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
     mv "${srcdir}/${_pkgname}" "${pkgdir}/opt"
@@ -26,10 +33,10 @@ Name=AB Download Manager
 Comment=Manage and organize your download files better than before
 GenericName=Download Manager
 Exec=env SKIKO_RENDER_API=SOFTWARE ${_pkgname}
-Icon=${_pkgname}
+Icon=${classname}
 Terminal=false
 Type=Application
 Categories=Network;Utility;
-StartupWMClass=com-abdownloadmanager-desktop-AppKt
+StartupWMClass=${classname}
 EOF
 }
