@@ -18,7 +18,7 @@ package() {
     install -d "${pkgdir}/usr/share/icons/hicolor/"{512x512,256x256,128x128,64x64,48x48,32x32,16x16}/apps
     install -d "${pkgdir}/usr/bin/"
 
-    magick -background none "${srcdir}/app_logo.svg" -resize 256x256 "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png"
+    magick -background none "${srcdir}/app_logo.svg" -resize 512x512 "${pkgdir}/usr/share/icons/hicolor/512x512/apps/${classname}.png"
     magick -background none "${srcdir}/app_logo.svg" -resize 256x256 "${pkgdir}/usr/share/icons/hicolor/256x256/apps/${classname}.png"
     magick -background none "${srcdir}/app_logo.svg" -resize 128x128 "${pkgdir}/usr/share/icons/hicolor/128x128/apps/${classname}.png"
     magick -background none "${srcdir}/app_logo.svg" -resize 64x64 "${pkgdir}/usr/share/icons/hicolor/64x64/apps/${classname}.png"
