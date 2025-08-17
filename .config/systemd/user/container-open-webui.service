@@ -20,10 +20,10 @@ ExecStart=/usr/bin/podman run \
 	--sdnotify=conmon \
 	--replace \
 	-d \
-	-p 3000:8080 \
+	--network=host \
 	--gpus all \
-	--add-host=host.docker.internal:host-gateway \
 	-v open-webui:/app/backend/data \
+        -e OLLAMA_BASE_URL=http://127.0.0.1:11434 \
 	--name open-webui ghcr.io/open-webui/open-webui:cuda
 ExecStop=/usr/bin/podman stop \
 	--ignore -t 10 \
