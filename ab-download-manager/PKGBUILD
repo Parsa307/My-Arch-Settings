@@ -8,21 +8,16 @@ arch=("x86_64")
 url="https://abdownloadmanager.com/"
 license=("Apache-2.0")
 depends=("glibc" "java-runtime" "zlib" "alsa-lib" "libglvnd" "libxi" "freetype2" "libxtst" "libxrender" "fontconfig" "libx11" "libxext" "libappindicator-gtk3")
-makedepends=("imagemagick")
 options=(!debug)
 source=("https://github.com/amir1376/${pkgname}/releases/download/v${pkgver}/ABDownloadManager_${pkgver}_linux_x64.tar.gz")
 sha256sums=("0f4670470757afe63ec670b66568d24d21de50092680cde638245671939cec8b")
 
 package() {
     install -d "${pkgdir}/opt/"
-    install -d "${pkgdir}/usr/share/icons/hicolor/"{512x512,256x256,128x128,64x64,48x48,32x32,16x16}/apps
+    install -d "${pkgdir}/usr/share/icons/hicolor/scalable/apps/"
     install -d "${pkgdir}/usr/bin/"
 
-    for size in 512 256 128 64 48 32 16; do
-        magick -background none "${srcdir}/app_logo.svg" -resize "${size}x${size}" \
-            "${pkgdir}/usr/share/icons/hicolor/${size}x${size}/apps/${classname}.png"
-    done
-
+    install -m644 "${srcdir}/app_logo.svg" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/${classname}.svg"
     chmod +x "${srcdir}/${_pkgname}/bin/${_pkgname}"
     mv "${srcdir}/${_pkgname}" "${pkgdir}/opt"
     ln -s "/opt/${_pkgname}/bin/${_pkgname}" "${pkgdir}/usr/bin/${_pkgname}"
