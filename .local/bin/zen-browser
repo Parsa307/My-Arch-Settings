@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+
+# Launch Zen Browser via Flatpak
+flatpak run app.zen_browser.zen
