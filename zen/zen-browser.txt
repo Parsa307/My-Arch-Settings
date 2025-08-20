@@ -1,0 +1,3 @@
+Get it from Zen Browser repo and extract it to ~/.local/zen. (Don't use the AUR Version).
+
+ln -s ~/.local/zen/zen ~/.local/bin/zen-browser
