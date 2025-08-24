@@ -1,1 +1,1 @@
-podman generate systemd --name open-webui --files --new
+podman generate systemd --name open-webui > ~/.config/systemd/user/container-open-webui.service
