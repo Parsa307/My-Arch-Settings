@@ -2,6 +2,10 @@
 
 Welcome to my personal Arch Linux configuration repo! This collection includes Pacman Hooks & Script Handlers, PKGBUILD, other configuration. Some of them do some patches. But these patches help enabling features.
 
+[Dotfiles](https://github.com/end-4/dots-hyprland)
+
+---
+
 **My Current Wallpaper:**
 [Image](https://konachan.net/image/c2e0c78a7a91c61a52f0c7e4ef8465f5/Konachan.com%20-%20390509%20blue_eyes%20blue_hair%20chain%20choker%20elbow_gloves%20garter%20gloves%20hat%20kneehighs%20kyaroru%20navel%20necklace%20reflection%20short_hair%20skirt%20twintails%20water.png)  
 [Artist Page](https://konachan.net/post/show/390509)
