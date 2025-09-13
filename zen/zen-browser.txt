@@ -1,1 +1,1 @@
-yay -S zen-browser-bin
+sudo pacman -S zen-browser-bin
