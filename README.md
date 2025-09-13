@@ -7,10 +7,14 @@ I use [CachyOS Arch Based Distro](https://cachyos.org)
 Why [CachyOS](https://wiki.cachyos.org/cachyos_basic/why_cachyos)
 
 **My Current Wallpaper:**
+[Image](https://konachan.net/jpeg/f2fd47cd85be915f6bdf9b05102f26c2/Konachan.com%20-%20393137%20bow%20garter%20headband%20honkai_impact%20honkai_%28series%29%20long_hair%20magic%20msyg2258%20purple_hair%20shirt%20sirin%20skirt%20yellow_eyes.jpg)
+[Artist Page](https://www.miyoushe.com/bh3/article/53182942)
+
+**My Previous Wallpaper:**
 [Image](https://konachan.net/image/c2e0c78a7a91c61a52f0c7e4ef8465f5/Konachan.com%20-%20390509%20blue_eyes%20blue_hair%20chain%20choker%20elbow_gloves%20garter%20gloves%20hat%20kneehighs%20kyaroru%20navel%20necklace%20reflection%20short_hair%20skirt%20twintails%20water.png)  
 [Artist Page](https://konachan.net/post/show/390509)
 
-**My Previous Wallpaper:**
+**My Another Previous Wallpaper:**
 [Image](https://konachan.net/image/ef4797a7b2510e919b6932586a09f681/Konachan.com%20-%20392234%20aliasing%20bubbles%20close%20dark%20hat%20long_hair%20original%20sika%20underwater%20water%20white_hair.png)  
 [Artist Page](https://www.pixiv.net/en/artworks/133584744)
 
