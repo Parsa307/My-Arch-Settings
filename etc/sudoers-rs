@@ -1,0 +1,6 @@
+Defaults secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Defaults pwfeedback
+
+%sudo ALL=(ALL:ALL) ALL
+
+@includedir /etc/sudoers.d
