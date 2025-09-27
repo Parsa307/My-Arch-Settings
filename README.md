@@ -1,6 +1,6 @@
 # My Arch Linux Settings
 
-Welcome to my personal Arch Linux configuration repo! This collection includes Pacman Hooks & Script Handlers, PKGBUILD, other configuration. Some of them do some patches. But these patches help enabling features.
+Welcome to my personal CachyOS (Arch Based) configuration repo! This collection includes configuration.
 
 I use [CachyOS Arch Based Distro](https://cachyos.org)
 
