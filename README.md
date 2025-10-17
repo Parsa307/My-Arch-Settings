@@ -1,5 +1,7 @@
 # My Arch Linux Settings
 
+[![Please don't upload to GitHub](https://nogithub.codeberg.page/badge-sq.svg)](https://nogithub.codeberg.page)
+
 Welcome to my personal CachyOS (Arch Based) configuration repo! This collection includes configuration.
 
 I use [CachyOS Arch Based Distro](https://cachyos.org)
