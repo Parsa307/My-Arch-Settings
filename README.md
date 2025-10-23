@@ -9,11 +9,11 @@ I use [CachyOS Arch Based Distro](https://cachyos.org)
 Why [CachyOS](https://wiki.cachyos.org/cachyos_basic/why_cachyos)
 
 **My Current Wallpaper:**
-[Download](https://initiate.alphacoders.com/download/images8/1319909/jpeg)
+[Download](https://initiate.alphacoders.com/download/images8/1319909/jpeg)  
 [Source](https://wall.alphacoders.com/big.php?i=1319909)
 
 **My Previous Wallpaper:**
-[Image](https://konachan.net/jpeg/f2fd47cd85be915f6bdf9b05102f26c2/Konachan.com%20-%20393137%20bow%20garter%20headband%20honkai_impact%20honkai_%28series%29%20long_hair%20magic%20msyg2258%20purple_hair%20shirt%20sirin%20skirt%20yellow_eyes.jpg)
+[Image](https://konachan.net/jpeg/f2fd47cd85be915f6bdf9b05102f26c2/Konachan.com%20-%20393137%20bow%20garter%20headband%20honkai_impact%20honkai_%28series%29%20long_hair%20magic%20msyg2258%20purple_hair%20shirt%20sirin%20skirt%20yellow_eyes.jpg)  
 [Artist Page](https://www.miyoushe.com/bh3/article/53182942)
 
 **My Another Previous Wallpaper:**
