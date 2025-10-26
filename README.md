@@ -8,7 +8,11 @@ I use [CachyOS Arch Based Distro](https://cachyos.org)
 
 Why [CachyOS](https://wiki.cachyos.org/cachyos_basic/why_cachyos)
 
-**My Current Wallpaper:**
+**My Current Wallpaper**
+[Image](https://konachan.net/image/c12aa4875aea35a3486fceb0436bb326/Konachan.com%20-%20384249%20brown_hair%20chinese_clothes%20close%20fang%20genshin_impact%20gya_%28144%29%20hat%20hu_tao_%28genshin_impact%29%20long_hair%20red_eyes%20shorts%20twintails%20wink%20wristwear.jpg)  
+[Artist Page](https://www.pixiv.net/en/artworks/125077204)
+
+**My Previous Wallpaper:**
 [Download](https://initiate.alphacoders.com/download/images8/1319909/jpeg)  
 [Source](https://wall.alphacoders.com/big.php?i=1319909)
 
